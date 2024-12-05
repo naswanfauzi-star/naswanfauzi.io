@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header.text-center.text-light {
+    background: url('coba.gif') no-repeat center center;
+    background-size: cover; /* Memastikan gambar menutupi area penuh */
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+header .img-fluid {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+header .img-fluid:hover {
+    transform: scale(1.05);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #000000;
+}
+
+.hero-content {
+    padding: 4rem 2rem;
+}
+
+.hero-content h2 span {
+    color: #ffce00;
+}
+
+.btn {
+    background: #ffce00;
+    color: #333;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e0b200;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about.portfolio, .contact {
+    background: #f4f4f4;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.portfolio-item {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(2, 12, 158, 0.1);
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 300px;
+    margin: auto;
+}
+
+form input, form textarea, form button {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #fc2566;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #1e5cc6;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #000958;
+    color: white;
+}
+
+#contact img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#contact img:hover {
+    transform: scale(1.1);
+}
+
+#contact ul {
+    font-size: 1.1rem;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.experience {
+    background-color: #f8f9fa;
+}
+
+.experience h4 {
+    margin-bottom: 1.5rem;
+}
+
+.experience .border {
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+  
+  
